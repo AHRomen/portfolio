@@ -264,7 +264,7 @@ nav .nav-link{
     height: 250px;
     margin: auto;
     position: relative;
-    border-radius: 30px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: 10px 12px 12px -7px var(--bg-color);
 }
