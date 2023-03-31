@@ -5,7 +5,16 @@ $(document).ready(function(){
       delay: 100, // values from 0 to 3000, with step 50ms
       duration: 3000
     });
-
+    $(".nav-button").click(function(){
+      if($(".nav-button").attr("aria-expanded") === "true"){
+        $(".lines").addClass("nline");
+        
+      }
+      else{
+        $(".lines").removeClass("nline");   
+           
+      }
+    });
     $(".js-sticknav").waypoint(function(direction){
       if (direction=="down") {
         $("nav").addClass("sticky");

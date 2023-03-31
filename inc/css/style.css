@@ -42,6 +42,49 @@ body{
 	box-shadow: 0 .1rem .2rem .1rem rgba(0, 0, 0, 0.65);
 	z-index: 9999;
 }
+/* Navigation Icon */
+.navigation .nav-button{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    transition: all .5s ease-in-out;
+}
+.navigation .nav-button:focus{
+    box-shadow: none;
+}
+.navbar-icon{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 39px;
+    overflow: hidden;
+}
+.lines{
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+.line1{
+    transform: translateY(-15px);
+}
+.line2{
+    transform: translateY(15px);
+}
+.line3{
+    left: 9px;
+}
+.line1.nline{
+    transform: translateY(0px) rotate(45deg);
+}
+.line2.nline{
+    transform: translateY(0px) rotate(315deg);
+}
+.line3.nline{
+    transform: translateX(50px);
+}
 
 /* Nav bar */
 .navbar{
