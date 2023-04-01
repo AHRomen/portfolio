@@ -110,7 +110,10 @@ nav .nav-link{
 
 /* Profile Data */
 .profile{
-    background: var(--bg-color);
+    background-image: linear-gradient(rgb(17 53 71 / 71%),rgb(17 53 71 / 55%)), url(../image/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     padding:10px 0 40px 0;
 }
 .greet{
@@ -151,16 +154,16 @@ nav .nav-link{
     color: var(--bg-color);
 }
 .profile_img_b{
-    border: 3px solid green;
+    border: 4px solid #15a7f09c;
     border-radius: 50%;
 }
 .profile_img{
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     border: 3px solid #fff;
     border-radius: 50%;
-    background: linear-gradient(to top,#0000FE, #3F00FF, #7F00FF);
+    background: linear-gradient(to top,rgb(50 125 163),rgb(37 62 74 / 63%));
 }
 .profile_social_icon a{
     border:1px solid var(--font-color);
@@ -178,9 +181,8 @@ nav .nav-link{
 /* About Section */
 
 .about{
-    background: #fff;
-    padding: 50px 0;
     color: var(--bg-color);
+    padding: 50px 0;
 }
 .about_heading{
     font-size: 2.5rem;
@@ -232,21 +234,29 @@ nav .nav-link{
 
 /* services Section */
 .service{
-    background: #fff;
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("../image/service.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
     color: var(--bg-color);
+}
+.service .head_text{
+    color: var(--font-color);
 }
 .s_lower{
     padding: 50px 0;
 }
 .offer_card{
+    background: var(--font-color);
     padding: 40px 20px;
     border: 1px solid var(--bg-color);
     border-radius: 30px;
-    transition: all .3s;
+    transition: all .3s ease-in-out;
 }
 .offer_card:hover{
     border-color: transparent;
-    box-shadow: 0px 2px 15px -6px var(--bg-color)
+    box-shadow: 0px 9px 34px 0px var(--font-color);
 }
 .c_logo{
     font-size: 2.5rem;
@@ -353,8 +363,11 @@ nav .nav-link{
     color: var(--font-color) !important;
 }
 .contact{
+    background-image:linear-gradient(rgb(17 53 71 / 71%),rgb(17 53 71 / 55%)), url("../image/contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
     padding: 80px 0;
-    background: var(--bg-color);
 }
 .contact_lower .media{
     padding: 15px;
