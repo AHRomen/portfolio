@@ -1,0 +1,22 @@
+@media screen and (max-width:991px) {
+    .greet{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .profile_name {
+        font-size: 2rem;
+    }
+    .profile_job {
+        font-size: 1.5rem;
+    }
+    
+    .profile_img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:767px) {
+    .profile_text{
+        margin-bottom: 40px;
+    }
+}
